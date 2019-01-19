@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lucy Ogden-Doyle</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:300,400,600|Abel" rel="stylesheet">
+        <style>
+            /* RESET */
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed,
+            figure, figcaption, footer, header, hgroup,
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            article, aside, details, figcaption, figure,
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+            body {
+                line-height: 1;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            blockquote, q {
+                quotes: none;
+            }
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            /* Main Styles */
+
+            * {
+                box-sizing: border-box;
+            }
+            a {
+                color: inherit;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+            a:hover {
+                color: #000;
+            }
+            #main {
+                width: 100%;
+                color: #3E3E3E;
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+
+            }
+            h1, h2, h3, h4, h5, h6 {
+                 /* font-family: 'Raleway', 'Lucida Grande', Helvetica, sans-serif; */
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+
+            h1 {
+                text-align: left;
+                font-size: 45px;
+                color: #3A3A3A;
+            }
+            h2 {
+                font-size: 26px;
+                line-height: 1.6em;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+
+            }
+            #header {
+                padding: 15px 60px 20px 60px;
+                margin: 30px 60px 20px 60px;
+                /*border-bottom: 1px solid #EFEFEF;*/
+            }
+            .top {
+                text-align: center;
+                padding: 15px;
+                margin-bottom: 30px;
+            }
+            .top h2 {
+                margin-bottom: 15px;
+            }
+
+            /* PROJECT STYLES */
+            .project {
+                padding: 80px 60px 40px 60px;
+
+            }
+            .project .inner {
+                max-width: 1120px;
+                margin: auto;
+            }
+
+            .project .title {
+                font-size: 32px;
+                margin-bottom: 0.6em;
+            }
+
+            .project .subtitle {
+
+            }
+            .project .project-image {
+                margin-top: 50px;
+            }
+            .project .project-image img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .project .project-image .caption {
+                text-align: center;
+                color: #6d6d6d;
+                font-size: 0.9rem;
+                margin-top: 15px;
+                font-style: italic;
+            }
+
+            /* PROJECT SPECIFIC OVERRIDES */
+            .project.romeo {
+                background-color: azure;
+            }
+
+            .project.aura {
+                background-color: green;
+            }
+
+
+            @media screen and (max-width: 960px) {
+            }
+            @media screen and (max-width: 580px) {
+            }
+            @media screen and (max-width: 320px) {
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <header id="header">
+                <h1>Lucy Ogden-Doyle</h1>
+            </header>
+            <section class="top">
+                <h2 class="title">AR/VR Developer <br>3D Artist</h2>
+                <p><a href="mailto:lucyod10@gmail.com">lucyod10@gmail.com</a></p>
+            </section>
+
+            <!-- This is a project  -->
+            <article class="project romeo">
+                <div class="inner">
+                    <h3 class="title">Romeo and Juliet, 2018.</h3>
+                    <p class="subtitle">An AR experience built for a high school textbook</p>
+                    <figure class="project-image">
+                        <img src="https://dummyimage.com/600x400/95b3a2/fff">
+                        <figcaption class="caption">Final Render Shot.</figcaption>
+                    </figure>
+                </div>
+            </article>
+
+            <article class="project aura">
+                <div class="inner">
+                    <h3 class="title">Romeo and Juliet, 2018.</h3>
+                    <p class="subtitle">An AR experience built for a high school textbook</p>
+                    <figure class="project-image">
+                        <img src="https://dummyimage.com/600x400/95b3a2/fff">
+                        <figcaption class="caption">Final Render Shot.</figcaption>
+                    </figure>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
